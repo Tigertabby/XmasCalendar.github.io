@@ -18,7 +18,7 @@
     <div class="box zone"><button class="btn-red"  onclick=location.href="ball.html">6</button></div>
     <div class="box zone"><button class="btn-yellow" onclick=location.href="clock.html">7</button></div>
     <div class="box zone"><button class="btn-green" onclick="window.open('recipe.png', '_blank'); playSong8()">8</button></div>
-    <div class="box zone"><button class="btn-blue" onclick=location.href="countdown.html">9</button></div>
+    <div class="box zone"><button class="btn-blue" onclick="window.open('countdown.html'); playSong16()">9</button></div>
     <div class="box zone"><button class="btn-red" onclick=location.href="story.html">10</button></div>
     <div class="box zone"><button class="btn-blue" onclick="window.open('painting.png'); playSong3()">11</button></div>
     <div class="box zone"><button class="btn-green" onclick=location.href="quote.html">12</button></div>
@@ -32,7 +32,7 @@
     <div class="box zone"><button class="btn-red" onclick=location.href="market.html">20</button></div>
     <div class="box zone"><button class="btn-green" onclick="window.open('sailing.png', '_blank'); playSong1()">21</button></div>
     <div class="box zone"><button class="btn-blue" onclick=location.href="type.html">22</button></div>
-    <div class="box zone"><button class="btn-yellow" onclick=location.href="countdown.html">23</button></div>
+    <div class="box zone"><button class="btn-yellow" onclick="window.open('countdown.html'); playSong15()">23</button></div>
     <div class="box zone"><button class="btn-green" onclick="window.open('xmas.html'); playSong13()"><strong><u>24</u></strong></button></div>
     <div class="box zone" style="text-shadow: 2px 2px #ff0000;"><h6><em>Sorry,<br> X-mas time is over..</em></h6></div>
   </div>
@@ -93,6 +93,14 @@
 }
  function playSong14(){
     const music= new Audio ("piano.mp3");
+	music.play();
+}
+ function playSong15(){
+    const music= new Audio ("heroic.mp3");
+	music.play();
+}
+ function playSong16(){
+    const music= new Audio ("cheerful.mp3");
 	music.play();
 }
   </script>
