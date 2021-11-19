@@ -1,0 +1,22 @@
+var images = [
+	'<img src="christmas.jpg">', //picked
+	'<img src="christmas.jpg">',
+	'<img src="dog.png">',
+	'<img src="dog.png">',
+	'<img src="socks.jpg">', //picked
+	'<img src="socks.jpg">',
+	'<img src="duck.png">',
+	'<img src="duck.png">',
+	'<img src="painting.png">',
+	'<img src="painting.png">',
+	'<img src="searose.png">',
+	'<img src="searose.png">',
+	'<img src="sky.png">',
+	'<img src="sky.png">',
+	'<img src="swan.png">',
+	'<img src="swan.png">',
+	'<img src="wiese.png">',
+	'<img src="wiese.png">',
+	'<img src="dream2.jpg">',
+	'<img src="dream2.jpg">',
+];
