@@ -110,16 +110,19 @@ img {
 
 .front {
 	position: absolute;
-	width: 150px; 
-	height: 125px; 
-	font-size: 120px; 
+	width: 100px;
+	height: 100px;
+	font-size: 80px;
 	font-weight: bolder; 
-	padding: 0px 5px 50px 35px; 
-	margin: 0;
+	padding: 5px;
+	margin:0;
+	text-align: center;
 	text-shadow: 4px 3px 7px rgba(94,119,115,0.82);
 	transform: rotateY(0deg);
 	transition: transform 0.5s linear 0s; 
 	backface-visibility: hidden;
+	color: #0C3EB7;
+	background-color: #F6EABE;
 }
 
 .back {
